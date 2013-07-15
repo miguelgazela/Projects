@@ -16,36 +16,32 @@ Some details:
 
 I will link to each project that I complete. Some will be in this same repo, some bigger ones will have dedicated repos.
 
-To get started, fork this repo, delete this README and rename [*README-scratch.md*](https://github.com/thekarangoel/Projects/blob/master/README-scratch.md) to *README.md*.
-
-**Note**: I have't read any problem while creating this repo. I'll read them as I start solving the problems. Hence, there is no prior filtering of problems. Keeps things spicy. :)
-
 ==============================
 
 Numbers
 ---------
 
-[**Find PI to the Nth Digit**](https://github.com/thekarangoel/Projects/blob/master/Numbers/pi.py) – Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
+**Find PI to the Nth Digit** – Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
 
-[**Fibonacci Sequence**](https://github.com/thekarangoel/Projects/blob/master/Numbers/fibonacci.py) – Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
+**Fibonacci Sequence** – Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 
-[**Prime Factorization**](https://github.com/thekarangoel/Projects/blob/master/Numbers/prime.py) – Have the user enter a number and find all Prime Factors (if there are any) and display them.
+**Prime Factorization** – Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
-[**Next Prime Number**](https://github.com/thekarangoel/Projects/blob/master/Numbers/next_prime.py) – Have the program find prime numbers until the user chooses to stop asking for the next one.
+**Next Prime Number** – Have the program find prime numbers until the user chooses to stop asking for the next one.
 
-[**Find Cost of Tile to Cover W x H Floor**](https://github.com/thekarangoel/Projects/blob/master/Numbers/tile.py) – Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
+**Find Cost of Tile to Cover W x H Floor** – Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
 
 **Mortgage Calculator** – Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan.
 
-[**Change Return Program**](https://github.com/thekarangoel/Projects/blob/master/Numbers/change.py) – The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
+**Change Return Program** – The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
 
-[**Binary to Decimal and Back Converter**](https://github.com/thekarangoel/Projects/blob/master/Numbers/binary_decimal.py) – Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
+**Binary to Decimal and Back Converter** – Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
 
-[**Calculator**](https://github.com/thekarangoel/Projects/blob/master/Numbers/calc.py) – A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
+**Calculator** – A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
 
 **Unit Converter (temp, currency, volume, mass and more)** – Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
 
-[**Alarm Clock**](https://github.com/thekarangoel/Projects/blob/master/Numbers/alarm.py) – A simple clock where it plays a sound after X number of minutes/seconds or at a particular time.
+**Alarm Clock** – A simple clock where it plays a sound after X number of minutes/seconds or at a particular time.
 
 **Distance Between Two Cities** – Calculates the distance between two cities and allows the user to specify a unit of distance. This program may require finding coordinates for the cities like latitude and longitude.
 
@@ -58,13 +54,13 @@ Numbers
 Text
 ---------
 
-[**Reverse a String**](https://github.com/thekarangoel/Projects/blob/master/Text/reverse.py) – Enter a string and the program will reverse it and print it out.
+**Reverse a String** – Enter a string and the program will reverse it and print it out.
 
-[**Pig Latin**](https://github.com/thekarangoel/Projects/blob/master/Text/piglatin.py) – Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Read Wikipedia for more information on rules.
+**Pig Latin** – Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Read Wikipedia for more information on rules.
 
-[**Count Vowels**](https://github.com/thekarangoel/Projects/blob/master/Text/count_vowels.py) – Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
+**Count Vowels** – Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
 
-[**Check if Palindrome**](https://github.com/thekarangoel/Projects/blob/master/Text/palindrome.py) – Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
+**Check if Palindrome** – Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
 
 **Count Words in a String** – Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
 

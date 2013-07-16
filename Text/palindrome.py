@@ -10,9 +10,13 @@ def is_palindrome(string):
         return False
     return is_palindrome(string[1:-1])
 
+
+def is_palindrome_alt(string):
+    return string == string[::-1]
+
 string = raw_input('String: ').lower()
 
-if is_palindrome(string):
+if is_palindrome_alt(string):
     print string + ' is a palindrome'
 else:
     print string + ' is not a palindrome'

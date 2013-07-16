@@ -29,7 +29,7 @@ Numbers
 
 **Next Prime Number** – Have the program find prime numbers until the user chooses to stop asking for the next one.
 
-**Find Cost of Tile to Cover W x H Floor** – Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
+[**Find Cost of Tile to Cover W x H Floor**](https://github.com/miguelgazela/Projects/blob/master/Numbers/cost_tile.py) – Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
 
 **Mortgage Calculator** – Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan.
 
@@ -62,7 +62,7 @@ Text
 
 [**Check if Palindrome**](https://github.com/miguelgazela/Projects/blob/master/Text/palindrome.py) – Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
 
-**Count Words in a String** – Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
+[**Count Words in a String**](ttps://github.com/miguelgazela/Projects/blob/master/Text/count_words.py) – Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
 
 **Text Editor** – Notepad style application that can open, edit, and save text documents. Add syntax highlighting and other features.
 

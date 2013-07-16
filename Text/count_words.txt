@@ -1,0 +1,3 @@
+this is the first string
+this is the seconds string
+and this is the third and final string

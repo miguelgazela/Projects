@@ -4,24 +4,14 @@
 
 fin = open("count_words.txt")
 
-words = []
-counter = []
+words = {}
 
 for line in fin:
     line = line.strip()
     line_words = line.split()
 
     for word in line_words:
-        if word in words:
-            i = words.index(word)
-            counter[i] += 1
-        else:
-            words.append(word)
-            counter.append(1)
+        words[word] = words.get(word, 0) + 1
 
-res = []
-for i in range(len(words)):
-    res.append([words[i], counter[i]])
-
-print res
+print words
 

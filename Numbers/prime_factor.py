@@ -1,6 +1,9 @@
 # Prime Factorization
 # Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
+import math
+
+
 def is_prime(num):
     if num < 2:
         return False
@@ -16,11 +19,11 @@ def get_prime_factors(n):
     for i in range(1, n/2+1):
         if (n % i == 0) and is_prime(i):
             res.append(i)
-            
+
     if is_prime(n):
         res.append(n)
-
     return res
+
 
 if __name__ == "__main__":
     try:

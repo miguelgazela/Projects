@@ -1,27 +1,21 @@
-credit_card = "4261500027050504"
+def main():
+    credit_card_num = list(raw_input("Credit card #: "))
+    checksum_nums = [int(v) * 2 for i, v in enumerate(credit_card_num) if i % 2 == 0]
+    checksum = 0
 
-ind_nums = list(credit_card)
-checksum_nums = ind_nums[::2]
-other_nums = ind_nums[1::2]
+    for i, v in enumerate(credit_card_num):
+        checksum += (i % 2 != 0 and int(credit_card_num[i]) or 0)
 
-# convert strings to int
-for i in range(len(checksum_nums)):
-    checksum_nums[i] = int(checksum_nums[i])
+    for v in checksum_nums:
+        if v >= 10:
+            q, r = divmod(v, 10)
+            checksum += q + r
+        else:
+            checksum += v
 
-for i in range(len(other_nums)):
-    other_nums[i] = int(other_nums[i])
+    if checksum % 10 == 0: print "The credit card number is valid."
+    else: print "The credit card number is not valid!"
 
-for i in range(len(checksum_nums)):
-    num = checksum_nums[i]
-    res = checksum_nums[i] * 2
 
-    if res >= 10:
-        q, r = divmod(num, 10)
-        checksum_nums.append(q)
-        checksum_nums.append(r)
-        del checksum_nums[i]
-    else:
-        checksum_nums[i] = res
-
-print checksum_nums
-print other_nums
+if __name__ == "__main__":
+    main()

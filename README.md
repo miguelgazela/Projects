@@ -43,11 +43,11 @@ Numbers
 
 **Distance Between Two Cities** – Calculates the distance between two cities and allows the user to specify a unit of distance. This program may require finding coordinates for the cities like latitude and longitude.
 
-**Credit Card Validator** – Takes in a credit card number from a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a valid number (look into how credit cards use a checksum).
+[**Credit Card Validator**](https://github.com/miguelgazela/Projects/blob/master/Numbers/credit_card.py) – Takes in a credit card number from a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a valid number (look into how credit cards use a checksum).
 
 **Tax Calculator** – Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.
 
-**Dijkstra’s Algorithm** – Create a program that finds the shortest path through a graph using its edges.
+[**Dijkstra’s Algorithm**](https://github.com/miguelgazela/Projects/blob/master/Numbers/dijkstra.py) – Create a program that finds the shortest path through a graph using its edges. - Incomplete!
 
 Text
 ---------
@@ -76,7 +76,7 @@ Text
 
 **Fortune Teller (Horoscope)** – A program that checks your horoscope on various astrology sites and puts them together for you each day.
 
-**Vigenere / Vernam / Ceasar Ciphers** – Functions for encrypting and decrypting data messages. Then send them to a friend.
+[**Vigenere / Vernam / Ceasar Ciphers**](https://github.com/miguelgazela/Projects/blob/master/Text/cipher.py) – Functions for encrypting and decrypting data messages. Then send them to a friend. - Incomplete
 
 **Random Gift Suggestions** – Enter various gifts for certain people when you think of them. When its time to give them a gift (xmas, birthday, anniversary) it will randomly pick one and perhaps places you can get it.
 
@@ -85,6 +85,8 @@ Text
 **CD Key Generator** – Generates a unique key for your applications to use based on some arbitrary algorithm that you can specify. Great for software developers looking to make shareware that can be activated.
 
 **Regex Query Tool** – A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular exp****ression against the source text and return any matches or flag errors in the regular exp****ression.
+
+[**Forty Days of Dating Scraper**](https://github.com/miguelgazela/Projects/blob/master/Text/fortydaysdating.py) - A small script that fetches date from the fortydaysofdating.com website and opens a new tab on the default browser as soon as a new post is posted.
 
 Networking
 ---------
@@ -231,7 +233,7 @@ Files
 
 **Image Map Generator** – Image maps are those images on the web that have multiple hover points that link to different pages. Such images may include maps or splash pages. See if you can make one where the user specifies an image, clicks hotspots in the image and specify links. It will then generate the HTML code to a file that the user can then copy and paste into their website to make the image map.
 
-**File Copy Utility** – Create a utility that can do bulk file copying and backups of other files.
+[**File Copy Utility**](https://github.com/miguelgazela/Projects/blob/master/Files/file_copy.py) – Create a utility that can do bulk file copying and backups of other files. - Incomplete
 
 **Code Snippet Manager** – Another utility program that allows coders to put in functions, classes or other tidbits to save for use later. Organized by the type of snippet or language the coder can quickly look up code. For extra practice try adding syntax highlighting based on the language.
 
@@ -310,7 +312,7 @@ Games
 
 **Chess and Checkers** – Simply put a game of chess or checkers. Try to make it playable online and if you can use a graphical user interface that can also undo or redo a step as well as keep a history of moves for replay.
 
-**Hangman** – Randomly select a word from a file, have the user guess characters in the word. For each character they guess that is not in the word, have it draw another part of a man hanging in a noose. If the picture is completed before they guess all the characters, they lose.
+[**Hangman**](https://github.com/miguelgazela/Projects/blob/master/Games/hangman.py) – Randomly select a word from a file, have the user guess characters in the word. For each character they guess that is not in the word, have it draw another part of a man hanging in a noose. If the picture is completed before they guess all the characters, they lose. - Incomplete
 
 **Crossword Puzzle** – Create a crossword puzzle which links words together on common letters. Provide a list of clues for each word and let the user enter fill in the words until the entire crossword is filled in.
 

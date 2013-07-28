@@ -50,12 +50,30 @@ class Graph(object):
         for vertex in self.vertex_set:
             vertex.dist = sys.maxint
 
-        src = get_vertex(info)
+        src = self.get_vertex(info)
 
         if src:
-            pass
+            src.dist = 0
+            set_nodes = sorted([vertex for vertex in self.vertex_set], key=self.cmp_fn)
+
+            for node in set_nodes:
+                print node
+
+            while len(set_nodes) != 0:
+                next_node = set_nodes.pop(0)
+
+                if next_node.dist == sys.maxint:
+                    break
+
+                for neighbor in next_node.adj:
+                    alt = next_node.dist + neighbor.weight
+                    if alt < 
+
         else:
             raise ValueError
+
+    def cmp_fn(self, vertex):
+        return vertex.dist
 
     def add_vertex(self, info):
         for vertex in self.vertex_set:
@@ -87,7 +105,7 @@ class Vertex(object):
         self.previous = None
 
     def __str__(self):
-        return "Info: %10s\tVisited: %s" % (self.info, self.visited)
+        return "Info: %10s\tVisited: %s\tDist: %d" % (self.info, self.visited, self.dist)
 
     def add_edge(self, dest, weight=0):
         self.adj.append(Edge(dest, weight))
@@ -127,3 +145,5 @@ g.add_vertex('Faro')
 g.add_vertex('Braga')
 
 print g
+
+g.dijkstra('Porto')

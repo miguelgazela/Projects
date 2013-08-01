@@ -32,7 +32,7 @@ def ceasar_aux(message, shift):
 
 
 def vernam_encrypt(message):
-    pass
+    
 
 
 def vernam_decrypt(message):

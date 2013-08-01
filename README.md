@@ -23,7 +23,7 @@ Numbers
 
 [**Fibonacci Sequence**](https://github.com/miguelgazela/Projects/blob/master/Numbers/fibonacci.py) – Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 
-**Prime Factorization** – Have the user enter a number and find all Prime Factors (if there are any) and display them.
+[**Prime Factorization**](https://github.com/miguelgazela/Projects/blob/master/Numbers/prime_factor.py) – Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
 [**Next Prime Number**](https://github.com/miguelgazela/Projects/blob/master/Numbers/next_prime.py) – Have the program find prime numbers until the user chooses to stop asking for the next one.
 
@@ -31,7 +31,7 @@ Numbers
 
 **Mortgage Calculator** – Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan.
 
-**Change Return Program** – The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
+[**Change Return Program**](https://github.com/miguelgazela/Projects/blob/master/Numbers/return.py) – The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
 
 [**Binary to Decimal and Back Converter**](https://github.com/miguelgazela/Projects/blob/master/Numbers/binary_converter.py) – Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
 
@@ -146,7 +146,7 @@ Classes
 
 **Chart Making Class / API** – Create a class, or a set of classes, that generates bar charts, pie charts, histograms, and scatter plot charts. For added complexity, make this a service where people can connect to a web server, supply information and it returns a chart image for them in gif or jpg format.
 
-**Shape Area and Perimeter Classes** – Create an abstract class called “Shape” and then inherit from it other shapes like diamond, rectangle, circle, triangle etc. Then have each class override the area and perimeter functionality to handle each shape type.
+[**Shape Area and Perimeter Classes**](https://github.com/miguelgazela/Projects/blob/master/Classes/shape.py) – Create an abstract class called “Shape” and then inherit from it other shapes like diamond, rectangle, circle, triangle etc. Then have each class override the area and perimeter functionality to handle each shape type.
 
 **Matrix Class** – A class to manage matrices. Add, subtract and multiple matrices.
 

@@ -3,7 +3,7 @@ Networking
 
 **FTP Program** – A file transfer program which can transfer files back and forth from a remote web sever.
 
-**Get Atomic Time from Internet Clock** – This program will get the true atomic time from an atomic time clock on the Internet. There are various clocks across the world. Do a search for a list of them.
+[**Get Atomic Time from Internet Clock**](https://github.com/miguelgazela/Projects/blob/master/Networking/atomic.py) – This program will get the true atomic time from an atomic time clock on the Internet. There are various clocks across the world. Do a search for a list of them.
 
 **Chat Application (IRC or MSN Style)** – Create a chat application that can create simple chat rooms like on Internet Relay Chat (IRC) or a more direct chatting style like MSN. For added complexity, create your own protocol to facilitate this chatting.
 

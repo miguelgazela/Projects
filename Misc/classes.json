@@ -1,0 +1,60 @@
+{
+    "name": "semestre-2",
+    "path": "/Users/migueloliveira/Dropbox/FEUP/ano_4/",
+    "classes": 
+        [
+            {
+                "name": "Sistemas de Informação",
+                "akronim": "SINF",
+                "url": "https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=333136",
+                "horario": 
+                    {
+                        "praticas": 
+                            [
+                                {
+                                    "week-day": "monday",
+                                    "starts-at": "09:30",
+                                    "duration": 2
+                                }
+                            ],
+                        "teoricas":
+                            [
+                                {
+                                    "week-day": "tuesday",
+                                    "starts-at": "15:30",
+                                    "duration": 2
+                                }
+                            ]
+                    }
+            },
+            {
+                "name": "Agentes e Inteligência Artificial Distribuída",
+                "akronim": "AIAD",
+                "url": "https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=333133",
+                "horario": 
+                    {
+                        "praticas": 
+                            [
+                                {
+                                    "week-day": "thursday",
+                                    "starts-at": "16:30",
+                                    "duration": 2
+                                }
+                            ],
+                        "teoricas":
+                            [
+                                {
+                                    "week-day": "wednesday",
+                                    "starts-at": "11:30",
+                                    "duration": 1
+                                },
+                                {
+                                    "week-day": "thursday",
+                                    "starts-at": "15:30",
+                                    "duration": 1
+                                }
+                            ]
+                    }
+            }
+        ]
+}

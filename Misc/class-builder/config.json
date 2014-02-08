@@ -1,0 +1,63 @@
+{
+    "path": "/Users/migueloliveira/Dropbox/FEUP/ano_4/semestre-2",
+    "classes": 
+        [
+            {
+                "name": "Arquitectura de Sistemas de Software",
+                "akronim": "ASSO",
+                "url": "https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=333139",
+                "schedule": 
+                    {
+                        "practical": 
+                            [
+                                {
+                                    "week_day": "thursday",
+                                    "start_date": "13/02/2014",
+                                    "end_date": "30/06/2014",
+                                    "starts_at": "13:30",
+                                    "duration": 3
+                                }
+                            ],
+                        "theoretical": []
+                    }
+            },
+            {
+                "name": "Desenvolvimento de Jogos de Computador",
+                "akronim": "DJCO",
+                "url": "https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=333150",
+                "schedule": 
+                    {
+                        "practical": 
+                            [
+                                {
+                                    "week-day": "monday",
+                                    "start_date": "10/02/2014",
+                                    "end_date": "30/06/2014",
+                                    "starts-at": "09:30",
+                                    "duration": 3
+                                }
+                            ],
+                        "theoretical": []
+                    }
+            },
+            {
+                "name": "Paradigmas da Programação",
+                "akronim": "PPRO",
+                "url": "https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=333144",
+                "schedule": 
+                    {
+                        "practical": 
+                            [
+                                {
+                                    "week-day": "monday",
+                                    "start_date": "10/02/2014",
+                                    "end_date": "30/06/2014",
+                                    "starts-at": "17:00",
+                                    "duration": 3
+                                }
+                            ],
+                        "theoretical": []
+                    }
+            }
+        ]
+}
